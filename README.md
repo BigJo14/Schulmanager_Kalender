@@ -2,4 +2,4 @@
 Projekt TF bei Herr Süß Schulmanager Kalender
 
 # Teilnehmer
-Jo Habiger und Yasser Mahmmoud 
+Jo Habiger und Yasser Mahmoud 

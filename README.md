@@ -6,3 +6,6 @@ Jo Habiger und Yasser Mahmoud
 
 # Teamname
 letcode
+
+# Ansprechpartner
+

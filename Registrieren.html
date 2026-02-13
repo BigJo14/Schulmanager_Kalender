@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrien</title>
+</head>
+<body>
+    <h1>Registrierung Schulmanager</h1>
+    <br>
+    <br>
+    <form action="Registrien.php" method="POST">
+    <label for="user">Benutzername:</label>
+    <input type="text" id="user" name="benutzername" required><br><br>
+
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="email" required><br><br>
+
+    <label for="pw">Passwort:</label>
+    <input type="password" id="pw" name="passwort" required><br><br>
+
+    <p>Rolle:</p>
+    <input type="radio" id="lehrer" name="rolle" value="Lehrer" checked>
+    <label for="lehrer">Lehrer</label>
+    <input type="radio" id="schueler" name="rolle" value="Schüler">
+    <label for="schueler">Schüler</label><br><br>
+
+    <button type="submit">Absenden</button>
+</form>
+</body>
+</html>

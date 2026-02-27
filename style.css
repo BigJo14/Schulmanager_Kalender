@@ -1,0 +1,23 @@
+/* style.css */
+body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f8f9fa; direction: rtl; padding: 20px; }
+.header { text-align: center; color: #007bff; margin-bottom: 20px; }
+
+.form-container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+                  max-width: 600px; margin: 0 auto 30px auto; text-align: center; }
+input { padding: 10px; margin: 5px; border: 1px solid #ddd; border-radius: 5px; width: 40%; }
+button { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; }
+button:hover { background: #218838; }
+
+table { width: 100%; border-collapse: separate; border-spacing: 10px; table-layout: fixed; }
+th { background: #007bff; color: white; padding: 15px; border-radius: 8px; }
+td { background: white; height: 150px; vertical-align: top; padding: 10px; border-radius: 8px; 
+     box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: 1px solid #eee; position: relative; }
+
+.event { background: #fff9c4; border-right: 5px solid #ffc107; padding: 8px; margin-top: 10px; 
+         border-radius: 4px; font-weight: bold; font-size: 14px; color: #444; word-wrap: break-word; position: relative; }
+
+/* تنسيق زر الحذف الصغير */
+.delete-btn { color: #ff4d4d; text-decoration: none; font-size: 10px; float: left; margin-top: -5px; }
+.delete-btn:hover { color: #b30000; font-weight: bold; }
+
+.no-event { color: #ccc; font-size: 12px; display: block; margin-top: 50px; text-align: center; }

@@ -1,0 +1,118 @@
+:root {
+    --primary-blue: #337ab7;
+    --bg-light: #f4f7f9;
+    --border-color: #ddd;
+    --holiday-bg: #bbb;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--bg-light);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo { font-weight: bold; font-size: 1.2rem; margin-right: 20px; }
+
+.calendar-btn {
+    background: rgba(255,255,255,0.2);
+    border: none; color: white; padding: 8px 15px; border-radius: 4px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+.sidebar { width: 220px; }
+.sidebar h3 { font-size: 1rem; margin-bottom: 15px; }
+
+.filter-section label {
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.blue-label { background: blue; color: white; }
+.grey-label { background: #ccc; }
+
+.btn-outline {
+    display: block; width: 100%; text-align: left;
+    margin-bottom: 8px; padding: 8px;
+    background: white; border: 1px solid #ccc; border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Calendar Card */
+.calendar-card {
+    flex-grow: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-controls { display: flex; align-items: center; gap: 20px; }
+.nav-arrow { background: #f0f0f0; border: 1px solid #ccc; padding: 5px 12px; border-radius: 4px; }
+
+.view-switch button {
+    padding: 8px 15px; border: 1px solid #ccc; background: white; cursor: pointer;
+}
+.view-switch button.active { background: #ccc; }
+
+/* Grid logic */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr);
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+}
+
+.day-name, .kw, .day {
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px;
+    min-height: 80px;
+}
+
+.day-name { min-height: auto; font-weight: bold; text-align: center; }
+.kw { color: #999; font-size: 0.8rem; }
+.muted { color: #ccc; }
+
+.holiday {
+    background: var(--holiday-bg);
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+
+/* Spanning Holidays (Simplified for visual) */
+.span-row-holiday {
+    grid-column: 2 / 9;
+    background: #bbb;
+    color: white;
+    margin: 2px 5px;
+    font-size: 0.8rem;
+    padding-left: 10px;
+}

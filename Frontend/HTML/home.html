@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulmanager Online - Kalender</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-left">
+            <span class="logo">Schulmanager</span>
+            <div class="dropdown">
+                <button class="calendar-btn">📅 Kalender ▾</button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <span class="icon">🔔</span>
+            <span class="icon">👤 ▾</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <section class="filter-section">
+                <h3>Kategorien anzeigen:</h3>
+                <label><input type="checkbox" checked> Alle anzeigen</label>
+                <label class="blue-label"><input type="checkbox" checked> Termine</label>
+                <label class="grey-label"><input type="checkbox" checked> Ferien/Feiertage</label>
+            </section>
+
+            <section class="export-section">
+                <h3>Kalender exportieren</h3>
+                <button class="btn-outline">📄 PDF-Datei</button>
+                <button class="btn-outline">📅 .ics-Datei</button>
+                <button class="btn-outline">🔄 Kalender abonnieren</button>
+            </section>
+        </aside>
+
+        <section class="calendar-card">
+            <div class="calendar-header">
+                <button class="btn-light">Heute</button>
+                <div class="nav-controls">
+                    <button class="nav-arrow">&lt;</button>
+                    <h2>April 2026</h2>
+                    <button class="nav-arrow">&gt;</button>
+                </div>
+                <div class="view-switch">
+                    <button class="active">Monat</button>
+                    <button>Woche</button>
+                    <button>Tag</button>
+                </div>
+            </div>
+
+            <div class="calendar-grid">
+                <div class="day-name"></div><div class="day-name">Mo</div><div class="day-name">Di</div>
+                <div class="day-name">Mi</div><div class="day-name">Do</div><div class="day-name">Fr</div>
+                <div class="day-name">Sa</div><div class="day-name">So</div>
+
+                <div class="kw">KW14</div>
+                <div class="day muted">30</div><div class="day muted">31</div><div class="day">1</div>
+                <div class="day">2</div><div class="day">3 <div class="holiday">Karfreitag</div></div>
+                <div class="day">4</div><div class="day">5</div>
+                <div class="span-row-holiday">Osterferien</div>
+
+                <div class="kw">KW15</div>
+                <div class="day">6</div><div class="day">7</div><div class="day">8</div>
+                <div class="day">9</div><div class="day">10</div><div class="day">11</div><div class="day">12</div>
+                <div class="span-row-holiday">Osterferien</div>
+                <div class="span-single-holiday">Ostermontag</div>
+
+                <div class="kw">KW16</div>
+                <div class="day">13</div><div class="day">14</div><div class="day">15</div>
+                <div class="day">16</div><div class="day">17</div><div class="day">18</div><div class="day">19</div>
+
+                <div class="kw">KW17</div>
+                <div class="day">20</div><div class="day">21</div><div class="day">22</div>
+                <div class="day">23</div><div class="day">24</div><div class="day">25</div><div class="day">26</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,6 +1,7 @@
 # SchulManager_Kalender
 
 Ein einfaches Schul Kalender.
-#TeilNehmer:
+
+# TeilNehmer:
     Habiger Jo Luca
     Yasser Mahmoud

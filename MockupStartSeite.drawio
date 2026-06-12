@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Seite-1" id="E6Y0Xz3_IPfbGPCnaCvq">
+    <mxGraphModel dx="1098" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mgeklQaatjoAsDH7nlwh-1" value="&lt;h4&gt;&lt;font face=&quot;Verdana&quot;&gt;login&lt;/font&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;glass=0;fillColor=#428bca;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-2" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-3" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fffcc8;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="185" y="330" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-6" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fffcc8;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="185" y="420" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-7" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;password&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="185" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-9" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;E-Mail-Adresse / Benutzername&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-10" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Einlogigen&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#428bca;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-11" value="&lt;font color=&quot;#3399ff&quot; face=&quot;Verdana&quot;&gt;passwort vergessen&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="185" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-13" value="&lt;h4&gt;&lt;font face=&quot;Verdana&quot;&gt;Erstmalig anmelden&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;glass=0;fillColor=#428bca;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-14" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="170" y="650" width="430" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-15" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fffcc8;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="185" y="700" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-18" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Zugangscode&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="185" y="670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-19" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;Anmelden&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#428bca;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="770" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-21" value="&lt;h4&gt;&lt;font color=&quot;#ffffff&quot; face=&quot;Verdana&quot;&gt;Schule auswählen&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;glass=0;fillColor=#428bca;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="870" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-22" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="170" y="920" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mgeklQaatjoAsDH7nlwh-24" value="&lt;a href=&quot;https://login.schulmanager-online.de/#/select-school&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;Klicken Sie hier, um Ihre Schule auszuwählen&amp;nbsp;&lt;/font&gt;&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="315" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
